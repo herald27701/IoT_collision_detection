@@ -272,6 +272,19 @@ void impactHandler(float dX, float dY, float dZ)
     {
       if (dY >= 0.02)
       {
+        previous_lat = EEPROM.readFloat(0);
+        previous_lng = EEPROM.readFloat(4);
+
+        digitalWrite(buzzPin, HIGH);  // turn the Buzz on (HIGH is the voltage level)
+        delay(500);                      // wait for a second
+        digitalWrite(buzzPin, LOW);   // turn the Buzz off by making the voltage LOW
+        
+        delay(2500);
+        EEPROM.writeFloat(0, global_lat);
+        EEPROM.commit();
+        EEPROM.writeFloat(4, global_lng);
+        EEPROM.commit();
+
         if (((global_lat-previous_lat)<0.0001) && ((global_lng-previous_lng)<0.0001))
         {
           lcd.print("Accident");
@@ -280,9 +293,9 @@ void impactHandler(float dX, float dY, float dZ)
           firebaseUpdate(global_date, global_time);
           for(int i = 0; i<3; i++)
           {
-            digitalWrite(buzzPin, HIGH);  // turn the LED on (HIGH is the voltage level)
+            digitalWrite(buzzPin, HIGH);  // turn the Buzz on (HIGH is the voltage level)
             delay(500);                      // wait for a second
-            digitalWrite(buzzPin, LOW);   // turn the LED off by making the voltage LOW
+            digitalWrite(buzzPin, LOW);   // turn the Buzz off by making the voltage LOW
             delay(500);
           }
           simSendSMS(global_lat, global_lng);
@@ -534,8 +547,6 @@ void displayGps()
 {
   if (gps.location.isValid())
   {
-    previous_lat = EEPROM.readFloat(0);
-    previous_lng = EEPROM.readFloat(4);
     lcd.setCursor(0,1);
     lcd.print(gps.location.lat(), 6);
     lcd.setCursor(0,2);
@@ -549,8 +560,6 @@ void displayGps()
   }
   else
   {
-    previous_lat = EEPROM.readFloat(0);
-    previous_lng = EEPROM.readFloat(4);
     global_lat = EEPROM.readFloat(0);
     global_lng = EEPROM.readFloat(4);
     lcd.setCursor(0,1);
