@@ -1,0 +1,4 @@
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/VerifyFortran.dir
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/VerifyFortranC.dir
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/edit_cache.dir
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/rebuild_cache.dir

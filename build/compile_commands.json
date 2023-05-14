@@ -1,0 +1,20 @@
+[
+{
+  "directory": "F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build",
+  "command": "D:\\MinGW\\bin\\gfortran.exe  @CMakeFiles/VerifyFortran.dir/includes_Fortran.rsp -g -c \"C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\FortranCInterface\\Verify\\VerifyFortran.f\" -o CMakeFiles\\VerifyFortran.dir\\VerifyFortran.f.obj",
+  "file": "C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/Verify/VerifyFortran.f",
+  "output": "CMakeFiles/VerifyFortran.dir/VerifyFortran.f.obj"
+},
+{
+  "directory": "F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build",
+  "command": "D:\\MinGW\\bin\\gcc.exe  @CMakeFiles/VerifyFortranC.dir/includes_C.rsp -g -o CMakeFiles\\VerifyFortranC.dir\\main.c.obj -c \"C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\FortranCInterface\\Verify\\main.c\"",
+  "file": "C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/Verify/main.c",
+  "output": "CMakeFiles/VerifyFortranC.dir/main.c.obj"
+},
+{
+  "directory": "F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build",
+  "command": "D:\\MinGW\\bin\\gcc.exe  @CMakeFiles/VerifyFortranC.dir/includes_C.rsp -g -o CMakeFiles\\VerifyFortranC.dir\\VerifyC.c.obj -c \"C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\FortranCInterface\\Verify\\VerifyC.c\"",
+  "file": "C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/Verify/VerifyC.c",
+  "output": "CMakeFiles/VerifyFortranC.dir/VerifyC.c.obj"
+}
+]

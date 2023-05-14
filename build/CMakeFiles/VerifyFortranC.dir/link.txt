@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\VerifyFortranC.dir/objects.a
+D:\MinGW\bin\ar.exe qc CMakeFiles\VerifyFortranC.dir/objects.a @CMakeFiles\VerifyFortranC.dir\objects1.rsp
+D:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\VerifyFortranC.dir/objects.a -Wl,--no-whole-archive -o VerifyFortranC.exe -Wl,--out-implib,libVerifyFortranC.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VerifyFortranC.dir\linkLibs.rsp

@@ -1,0 +1,2 @@
+D:\MinGW\bin\ar.exe qc libVerifyFortran.a CMakeFiles/VerifyFortran.dir/VerifyFortran.f.obj
+D:\MinGW\bin\ranlib.exe libVerifyFortran.a

@@ -1,0 +1,140 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/6.3.0/include",
+						"D:/MinGW/include",
+						"D:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+						"D:/MinGW/mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/6.3.0",
+						"D:/MinGW/lib/gcc",
+						"D:/MinGW/mingw32/lib",
+						"D:/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/MinGW/bin/gcc.exe",
+				"version" : "6.3.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/6.3.0/finclude",
+						"D:/MinGW/lib/gcc/mingw32/6.3.0/include",
+						"D:/MinGW/include",
+						"D:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+						"D:/MinGW/mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/6.3.0",
+						"D:/MinGW/lib/gcc",
+						"D:/MinGW/mingw32/lib",
+						"D:/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"gfortran",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"quadmath",
+						"m",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/MinGW/bin/gfortran.exe",
+				"version" : "6.3.0"
+			},
+			"language" : "Fortran",
+			"sourceFileExtensions" : 
+			[
+				"f",
+				"F",
+				"fpp",
+				"FPP",
+				"f77",
+				"F77",
+				"f90",
+				"F90",
+				"for",
+				"For",
+				"FOR",
+				"f95",
+				"F95"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

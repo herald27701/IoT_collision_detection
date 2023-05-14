@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/MYMODULE.c
+
+C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/MY_MODULE.c
+
+C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/my_module_.c
+
+C:/Program Files/CMake/share/cmake-3.26/Modules/FortranCInterface/mymodule_.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/MYMODULE_mp_MYSUB-UPPER.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/MYSUB-UPPER.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/MY_MODULE_mp_MY_SUB-UPPER.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/MY_SUB-UPPER.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/_QMmy_modulePmy_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/_QMmymodulePmysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/__my_module_MOD_my_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/__my_module_NMOD_my_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/__my_module__my_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/__mymodule_MOD_mysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/__mymodule_NMOD_mysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/__mymodule__mysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_moduleSmy_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_module_MP_my_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_module_mp_my_sub_.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_module_my_sub_.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_sub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_sub_.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/my_sub__.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/mymoduleSmysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/mymodule_MP_mysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/mymodule_mp_mysub_.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/mymodule_mysub_.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/mysub.c
+
+F:/Users/acer/Documents/PlatformIO/Projects/IoT_collision_detection/build/CMakeFiles/FortranCInterface/symbols/mysub_.c
+
