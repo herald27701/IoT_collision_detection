@@ -128,12 +128,21 @@ void firebaseUpdate(char date[], char time[])
   char path[50]; 
   char lat_path[100];
   char lng_path[100];
+
+  // Initialize the arrays
+  path[0] = '\0';
+  lat_path[0] = '\0';
+  lng_path[0] = '\0';
+
+  // Concatenate the path components in the correct order
   strcat(path, date);
   strcat(path, time);
   strcat(lat_path, path);
   strcat(lat_path, "/lat");
   strcat(lng_path, path);
   strcat(lng_path, "/long");
+
+  // Update the Firebase Realtime Database with latitude and longitude
   Firebase.setString(firebaseData, lat_path, String(global_lat, 6));
   Firebase.setString(firebaseData, lng_path, String(global_lng, 6));
 }
@@ -272,6 +281,7 @@ void impactHandler(float dX, float dY, float dZ)
     {
       if (dY >= 0.02)
       {
+        lcd.print("Waiting movement");
         previous_lat = EEPROM.readFloat(0);
         previous_lng = EEPROM.readFloat(4);
 
@@ -287,6 +297,7 @@ void impactHandler(float dX, float dY, float dZ)
 
         if (((global_lat-previous_lat)<0.0001) && ((global_lng-previous_lng)<0.0001))
         {
+          lcd.clear();
           lcd.print("Accident");
           last_accEvent_time = esp_timer_get_time();
           impactEvent = true;
